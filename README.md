@@ -1,8 +1,8 @@
-# Dispute Management System (Console-Based)
+# Dispute Handling Service (Console-Based)
 
 ## Overview
 
-The Dispute Management System (DMS) is a console-based backend application developed using Python and MySQL.  
+The Dispute handling service is a console-based backend application developed using Python and MySQL.  
 It is designed to manage the full lifecycle of disputes, including creation, assignment, tracking, and resolution, with secure authentication and role-based access control.
 The project simulates a real-world enterprise system used in domains such as construction projects, corporate operations, or service management.
 
@@ -26,13 +26,13 @@ The project simulates a real-world enterprise system used in domains such as con
 
     
 ## User Roles & Permissions
-
+```
    Role      Permissions 
 |---------|-------------------------------------------------|
 | Admin   | Register users, manage disputes, view all data  |
 | Manager | Create, assign and update disputes              |
 | Viewer  | View disputes only                              |
-
+```
 
 ## Technology Stack
 - Python 
@@ -42,7 +42,7 @@ The project simulates a real-world enterprise system used in domains such as con
 
 
 ## Project Structure
-
+```
 Python_DMS
 │
 ├── dat.py # Database connection
@@ -51,8 +51,7 @@ Python_DMS
 ├── dispute.py # Dispute operations
 ├── main.py # Console UI & application flow
 └── README.md
-
-
+```
 
 Username: admin
 Password: admin123
