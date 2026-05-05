@@ -1,4 +1,4 @@
-# Dispute Handling Service (Console-Based)
+# resolve-hub-api (Dispute Handling Service (Console-Based))
 
 ## Overview
 
